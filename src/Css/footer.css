@@ -1,0 +1,50 @@
+.footer-main{
+    padding: 5px 0px 35px 0px;
+}
+.footer-main h6{
+    font-weight: bolder !important;
+}
+.list-popular{
+    color: #557477;
+    list-style: none;
+    text-align: start;
+    font-size: 12px;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+.icon-popular{
+    font-size: 12px;
+    color: #557477;
+    list-style: none;
+    margin-right: 10px;
+    padding-left: 0px !important;
+    background-color: transparent;
+
+
+}
+.icon-popular:hover{
+    color: #555b5c;
+}
+.follow-us{
+    text-align: center;
+}
+.rights{
+    background-color: #002F34;
+    color: white;
+    padding: 12px 0px 8px 0px;
+}
+.rights h6{
+    font-size: 13px !important;
+}
+.rights h6 span{
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+.rights h6 span a {
+    color: white !important;
+    text-decoration: none;
+}

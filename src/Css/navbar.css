@@ -1,0 +1,82 @@
+.navbar-background{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 1px #dfdddd;
+    position: relative;
+
+
+}
+.navbar-container{
+    padding: 6px 0px;
+    text-align: center;
+        
+}
+.list-catagory{
+    display: flex;
+    flex-direction: row;
+    
+}
+.list-catagory a{
+    text-decoration: none !important;
+    width: 10%;
+    color: black;
+} 
+.catagory{
+    width: 100%;
+    text-decoration: none !important;
+    color: #1e2e44;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.catagory::selection{
+    background: transparent;
+}
+.navbar-arrow{
+    text-align: center;
+}
+.navbar-arrow img::selection{
+    background: transparent;
+}
+.navbar-arrow img{
+    transition: all 0.25s linear;
+    padding-bottom: 2px;
+}
+.catagory-rotate img{
+    transform: rotate(180deg);
+}
+.catagory-rotate-2 img{
+    transform: rotate(0deg);
+}
+.catagory-products{
+    background-color: white;
+    text-align: start;
+    /* border: 1px solid rgba(128, 128, 128, 0.322); */
+    box-shadow:0px 0px 3px rgb(226, 226, 226);
+    z-index: 1000;
+    position: absolute;
+    top: 38px;
+
+
+
+}
+.catagory-products-on{
+display: block !important;
+
+}
+.catagory-products-off{
+display: none !important;
+}
+.catagory-products li{
+    list-style: none;
+    
+}
+.catagory-products li a{
+    text-decoration: none;
+    color: black;
+}
+.catagory-products li a:hover{
+    color: rgb(21, 136, 156);
+}
+.mobiles,.vehicles,.property-sale,.property-rent,.electronics-home-appliances,.bikes,
+.business-industrial,.services,.jobs,.animals,.furniture,.fashion-beauty,.books-sports,.kids{
+    font-weight: 700;
+}

@@ -1,0 +1,39 @@
+.card{
+    width: 90% !important;
+    margin: 20px 0px 0px 0px;
+    height: 345px;
+}
+.card-body{
+    padding-bottom: 0px !important;
+}
+.card img {
+    margin: 10px auto;
+    /* width: 92% !important; */
+    height: 200px !important;
+
+}
+.card-text{
+    color: rgb(105, 103, 103);
+
+}
+.card-text span {
+    float: right;
+    cursor: pointer;
+}
+.no-fav{
+    color: rgb(105, 103, 103);
+    fill: none !important;
+}
+.fav{
+    color: red;
+
+    
+}
+.card-location{
+    font-size: 13px;
+    margin-bottom: 5px !important;
+    color: rgb(150, 150, 150);
+}
+.card-location span{
+    float: right;
+}

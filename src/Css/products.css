@@ -1,0 +1,21 @@
+.recommendation{
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 500 !important;
+}
+.load-more{
+    text-align: center;
+    margin: 50px 0px;
+}
+.load-more button{
+    background-color: white !important;
+    font-weight: 500 !important;
+    border: 2px solid black;
+    transition: all 0.25s linear ;
+    text-transform: uppercase;
+
+}
+.load-more button:hover{
+    background-color: rgba(0, 0, 0, 0.658) !important;
+    color: white;
+}
